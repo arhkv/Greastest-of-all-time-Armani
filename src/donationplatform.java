@@ -92,8 +92,8 @@ public class donationplatform {
         Donor donor2 = new Donor("TheBestArman", "TheBestArman@email.com");
         Charity charity1 = new Charity("Helping Hands", "Healthcare");
         Charity charity2 = new Charity("Bright Future", "Education");
-        Donation donation1 = new Donation(donor1, charity1, 100.0);
-        Donation donation2 = new Donation(donor2, charity2, 150.0);
+        Donation donation1 = new Donation(donor1, charity1, 100);
+        Donation donation2 = new Donation(donor2, charity2, 150000);
         donor1.displayInfo();
         donor2.displayInfo();
         charity1.displayInfo();
