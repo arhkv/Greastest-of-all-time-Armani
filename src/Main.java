@@ -18,11 +18,11 @@ public class Main {
         donations.add(new Donation(donor2, charity, 500, LocalDate.of(2025, 12, 15)));
         donations.add(new Donation(donor1, charity, 2000, LocalDate.of(2025, 1, 10)));
 
-        // System.out.println("DONATIONS ABOVE 1000");
-        //System.out.println("-----------------------------------------------");
-        //donations.stream()
-        //        .filter(d -> d.getAmount() > 1000)
-        //        .forEach(System.out::println);
+        System.out.println("DONATIONS ABOVE 1000");
+        System.out.println("-----------------------------------------------");
+        donations.stream()
+                .filter(d -> d.getAmount() > 1000)
+                .forEach(System.out::println);
 
         System.out.println("\nSORTED BY AMOUNT");
         System.out.println("-----------------------------------------------");
