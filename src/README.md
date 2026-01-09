@@ -16,5 +16,3 @@ Methods toString(), equals(), and hashCode() were added.
 They help to correctly display objects and compare them with each other.
 
 A simple connection to a PostgreSQL database was added. The database tables have the same structure as the Java classes. The program can work with stored data.
-
-The output of the program was improved. Information is now displayed in a clean and readable format.
