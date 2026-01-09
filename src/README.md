@@ -15,4 +15,3 @@ sort donations by amount.
 Methods toString(), equals(), and hashCode() were added.
 They help to correctly display objects and compare them with each other.
 
-A simple connection to a PostgreSQL database was added. The database tables have the same structure as the Java classes. The program can work with stored data.
