@@ -1,11 +1,17 @@
-
-class Main {
-    private String name;
-    Main(String name) { name = name; }
-    String getName() { return name; }
+class A {
+    int x = 1;
+    int getX() { return x; }
 }
+
+class B extends A {
+    int x = 2;
+    int getX() { return x; }
+}
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(new Main("Asem").getName());
+        A v = new B();
+        System.out.print(v.x + " ");
+        System.out.println(v.getX());
     }
 }
