@@ -1,5 +1,3 @@
-During the work on this project, the initial code was improved and extended.
-
 First, the program was expanded within the same topic — charity and donations. New classes and connections between them were added so that donors can donate money to charity organizations.
 
 To make the code more correct, getters and setters were added. This allows working with data safely without direct access to class fields.
