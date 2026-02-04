@@ -19,4 +19,4 @@ They help to correctly display objects and compare them with each other.
 
 Assignment 3
 Table donor was created first because table donation contains a foreign key reference to donor(id).
-After that, table donation was successfully created.
+After that, table donation was successfully created. ';;'
